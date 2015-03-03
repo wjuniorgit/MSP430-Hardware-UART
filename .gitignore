@@ -1,0 +1,14 @@
+targetConfigs/readme.txt
+lnk_msp430g2553.cmd
+.ccsproject
+.launches/MSP430-Hardware-UART.launch
+*.project
+.settings/org.eclipse.cdt.codan.core.prefs
+*.prefs
+Debug/ccsObjs.opt
+*.pp
+Debug/MSP430-Hardware-UART.out
+*.map
+*.ccxml
+Debug/MSP430-Hardware-UART_linkInfo.xml
+.cproject
