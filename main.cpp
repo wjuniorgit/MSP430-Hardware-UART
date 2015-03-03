@@ -1,5 +1,6 @@
 #include "msp430g2553.h"
 #include "hardUart.h"
+#include "globals.h"
 
 
 
@@ -20,7 +21,6 @@ int main(void) {
 	hardUart hu;
 
 	_BIS_SR(GIE);     // Enable CPU interrupts
-
 
 	hu.xmit("\n\rHardware UART\n\r");
 
